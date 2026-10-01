@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550" viewBox="0 0 900 550">
+    <rect width="900" height="550" fill="#e9f2ff"/>
+
+    <rect x="100" y="80" width="700" height="390"
+          rx="20" fill="#ffffff" stroke="#174a7e" stroke-width="6"/>
+
+    <rect x="100" y="80" width="700" height="70"
+          rx="20" fill="#174a7e"/>
+
+    <circle cx="140" cy="115" r="12" fill="#ffffff"/>
+    <circle cx="180" cy="115" r="12" fill="#ffffff"/>
+    <circle cx="220" cy="115" r="12" fill="#ffffff"/>
+
+    <rect x="160" y="190" width="580" height="45"
+          rx="8" fill="#dceeff"/>
+
+    <rect x="160" y="270" width="260" height="120"
+          rx="12" fill="#2c7da0"/>
+
+    <rect x="440" y="270" width="300" height="25"
+          rx="8" fill="#174a7e"/>
+
+    <rect x="440" y="315" width="250" height="20"
+          rx="8" fill="#b8c7d9"/>
+
+    <rect x="440" y="355" width="200" height="20"
+          rx="8" fill="#b8c7d9"/>
+
+    <text x="450" y="440"
+          font-family="Arial, sans-serif"
+          font-size="28"
+          font-weight="bold"
+          fill="#174a7e">
+        Diseño Web
+    </text>
+</svg>

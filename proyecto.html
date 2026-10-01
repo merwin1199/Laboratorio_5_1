@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detalle de proyectos | Merwin Arciniegas</title>
+
+    <!--
+        Estructura HTML5:
+        Se utilizan elementos semánticos como header, nav, main,
+        section, article y footer para organizar el contenido.
+    -->
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                Merwin Arciniegas
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Mostrar navegación">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portafolio.html">
+                            Portafolio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Encabezado -->
+    <header class="bg-primary text-white py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-5 fw-bold">
+                Detalle de proyectos
+            </h1>
+
+            <p class="lead">
+                Información sobre los proyectos presentados
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Proyecto 1 -->
+        <section class="container py-5">
+
+            <article class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+
+                    <img src="images/proyecto1.svg"
+                         class="img-fluid rounded shadow"
+                         alt="Diseño de página web">
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <h2 class="fw-bold">
+                        Diseño de página web
+                    </h2>
+
+                    <p>
+                        Este proyecto consiste en la creación de una
+                        página web utilizando HTML5 para organizar
+                        la información y CSS para personalizar su apariencia.
+                    </p>
+
+                    <p>
+                        También se utiliza Bootstrap para incorporar
+                        componentes como botones, navegación, tarjetas
+                        y diferentes elementos responsivos.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- Proyecto 2 -->
+        <section class="bg-light py-5">
+
+            <div class="container">
+
+                <article class="row align-items-center g-4">
+
+                    <div class="col-lg-6 order-lg-2">
+
+                        <img src="images/proyecto2.svg"
+                             class="img-fluid rounded shadow"
+                             alt="Interfaz web responsiva">
+
+                    </div>
+
+                    <div class="col-lg-6 order-lg-1">
+
+                        <h2 class="fw-bold">
+                            Interfaz responsiva
+                        </h2>
+
+                        <p>
+                            El segundo proyecto se enfoca en crear una
+                            interfaz que pueda adaptarse correctamente
+                            a diferentes tamaños de pantalla.
+                        </p>
+
+                        <p>
+                            Bootstrap permite utilizar un sistema de
+                            columnas y componentes que facilita la
+                            adaptación del contenido a computadores,
+                            tabletas y teléfonos celulares.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Herramientas -->
+        <section class="container py-5 text-center">
+
+            <h2 class="fw-bold mb-4">
+                Herramientas utilizadas
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="p-4 shadow-sm rounded bg-light">
+
+                        <h3 class="h5">
+                            HTML5
+                        </h3>
+
+                        <p class="mb-0">
+                            Estructura y organización del contenido.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="p-4 shadow-sm rounded bg-light">
+
+                        <h3 class="h5">
+                            CSS
+                        </h3>
+
+                        <p class="mb-0">
+                            Diseño y personalización visual.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="p-4 shadow-sm rounded bg-light">
+
+                        <h3 class="h5">
+                            Bootstrap
+                        </h3>
+
+                        <p class="mb-0">
+                            Componentes y diseño responsivo.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="portafolio.html"
+               class="btn btn-primary mt-5">
+                Volver al portafolio
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <p class="mb-1">
+            Laboratorio 5.1 - Diseño de interfaces de usuario
+        </p>
+
+        <p class="mb-0">
+            Merwin Arciniegas Remolina
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
